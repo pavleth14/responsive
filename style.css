@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #eee;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.bgBlack {
+    background-color: black;
+}
+
+.textWhite {
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.alignBetween {
+    align-items: space-between;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.pt1 {
+    padding-top: 1rem;
+}
+
+.maxWidth {
+    max-width: 1300px;
+}
+
+.mAuto {
+    margin: 0 auto;
+}
+
+.borderRed {
+    border: 1px solid red;
+}
+
+.p1 {
+    padding: 1rem;
+}
+
+.p2 {
+    padding: 2rem;
+}
+
+.pl2 {
+    padding-left: 2rem;
+}
+
+.pr2 {
+    padding-right: 2rem;
+}
+
+.textDecorationNone {
+    text-decoration: none;
+}
+
+.fsize2 {
+    font-size: 1.5rem;
+}
+
+.menuIcon {
+    display: none;
+}
+
+.menuName {
+    display: none;
+}
+
+.borderBottomRed {
+    border-bottom: 1px solid red;
+}
+
+.twitter:hover {
+    color: blue;
+}
+
+.linkedin:hover {
+    color: orange;
+}
+
+.inline {
+    display: inline;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.ml1 {
+    margin-left: 1rem;
+}
+
+.mb2 {
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+                                /*  ************************************** Section 1 *******************************************/
+
+    .cardImg {
+        width: 300px;
+        height: auto;
+    }
+
+    .articleMaxWidth {
+        max-width: 700px;
+    }
+
+    .bgSilver {
+        background-color: rgb(197, 194, 194);
+    }
+
+    .mb1 {
+        margin-bottom: 1rem;
+    }
+
+    .borderRadius40px {
+        border-radius: 40px;
+    }
+    .borderRadius6px {
+        border-radius: 6px;
+    }
+
+    .colorRed {
+        color: red;
+    }
+
+    .mr1 {
+        margin-right: 1rem;
+    }
+
+    .mr2 {
+        margin-right: 2rem; 
+    }
+
+    
+
+    /* Section 2 */
+
+    .textAlignCenter {
+        text-align: center;
+    }
+
+    .mt1 {
+        margin-top: 1rem;
+    }
+    .mb1 {
+        margin-bottom: 1rem;
+    }
+
+    .bgLightBlue {
+        background-color: lightblue;
+    }
+
+    .pb2 {
+        padding-bottom: 2rem;
+    }
+
+    .width30 {
+        width: 30%;
+    }
+
+    .textBlack {
+        color: black;
+    }
+
+    .heAuto {
+        height: auto;
+    }
+
+    .flexGrow1 {
+        flex-grow: 1;
+    }
+
+    .flexGap2 {
+        gap: 2rem;
+    }
+
+    .borderGreen {
+        border: 1px solid green;
+    }
+
+    .w50 {
+        width: 50%;
+    }
+    
+
+
+
+@media (max-width: 1024px) {
+    .mainMenu {
+        display: none;
+    }
+    .menuIcon {
+        display: block;
+    }
+    .tabletWrap {
+        flex-wrap: wrap;
+    }
+    .mb2Tablet {
+        margin-bottom: 2rem;
+    }
+    .flexDirectionColumnTablet {
+        flex-direction: column;
+    }
+    .mAutoTablet {
+        margin: 0 auto;
+    }
+    .mr0Tablet {
+        margin-right: 0;
+    }
+    .mAutoTablet {
+        margin: 0 auto;
+    }
+    .flexWrapTablet {
+        flex-wrap: wrap;
+    }
+    .width50Tablet {
+        width: 47%;
+    }
+    
+    
+}
+
+@media (max-width: 640px) {
+    .displayBlockMobile {
+        display: block;
+    }
+    .mb1Mobile {
+        margin-bottom: 1rem;
+    }
+    .textAlignCenterMobile {
+        text-align: center;
+    }
+    .menuIcon {
+        display: none;
+    }
+    .menuName {
+        display: block;
+    }
+    .mAutoMobile {
+        margin: 0 auto;
+    }
+    .w100Mobile {
+        width: 100%;
+    }
+    .ml0Mobile {
+        margin-left: 0;
+    }
+    .mb2Mobile {
+        margin-bottom: 2rem;
+    }
+    .justifyCenterMobile {
+        justify-content: center;
+    }
+    .widthMobile100 {
+        width: 100%;
+    }
+}
